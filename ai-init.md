@@ -41,4 +41,4 @@
 - gemini라면 **GEMINI.md**: 위 프로세스를 Gemini CLI의 핵심 지침으로 등록하여 자동 준수 유도
 - claude라면 **CLAUDE.md**: 위 프로세스를 Claude CLI의 핵심 지침으로 등록하여 자동 준수 유도
 - **파일 시스템**: `_project/` 하위에 `work-order.md`, `question.md`, `history.md`, `work-log/` 생성
-- **자동화**: 명령어 인식 및 보고서 생성 로직을 GEMINI.md에 명시하여 일관성 유지
+- **자동화**: 명령어 인식 및 보고서 생성 로직을 GEMINI.md 혹은 CLAUDE.md에 명시하여 일관성 유지
