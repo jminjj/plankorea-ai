@@ -29,7 +29,13 @@ npm install -g @google/gemini-cli
 ```
 irm https://claude.ai/install.ps1 | iex
 ```
-
+## 참고 
+- Claude Managed Agents [ https://claude.com/blog/claude-managed-agents](https://claude.com/blog/claude-managed-agents)
+- 새 앱 프로젝트를 시작할 때 claude가 기획을 구체화하고 문서 구조를 잡아주는 스킬 [https://github.com/vibewithaisy/app-plan-skill?media_id=3868520595055996477_32653902084&media_author_id=32653902084&ranking_info_token=GCA5YmIyMGExM2ZlNTA0NzVjYmIzN2ZmNjNkZTE2N2RjMyWmsvQCFYirBxbamJqdDRgTMzg2ODUyMDI1MTg0NDUwNzM5OSgDZnJjAA%3D%3D&utm_source=ig_text_post_permalink](https://github.com/vibewithaisy/app-plan-skill)
+- Harness Agent Team & Skill Architect [https://github.com/revfactory/harness/blob/main/README_KO.md](https://github.com/revfactory/harness/blob/main/README_KO.md)
+- Harness 100 실전 에이전트 팀 하네스 컬렉션 [https://github.com/revfactory/harness-100/blob/main/README_ko.md](https://github.com/revfactory/harness-100/blob/main/README_ko.md)
+- Claude Code Skills & Plugins 완벽가이드 [https://skills-plugins-guide.vercel.app/](https://skills-plugins-guide.vercel.app/)
+- cowork-plugins Claude Cowork 도메인 전문가 AI 마켓플레이스 [https://github.com/modu-ai/cowork-plugins](https://github.com/modu-ai/cowork-plugins)
 
 
 
