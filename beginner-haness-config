@@ -1,0 +1,51 @@
+
+# Work Log: 260420-11-007-w-harness-config-beginner-guide.md
+
+## 1. 작업 개요
+- **지시 사항**: "하네스 구성해주세요. 여기서는 초보자들도 cli로 ai를 쉽게 사용할 수 있는 방법을 찾아 가이드를 만들어 배포하려는 목적입니다."
+- **작업 일시**: 2026-04-20 11:00
+- **수행 유형**: Work Order (w)
+
+## 2. 작업 과정
+- **Harness 환경 구성**:
+    - `.claude/agents/`, `.claude/skills/` 디렉토리 생성.
+    - 프로젝트 관리 기준이 되는 `CLAUDE.md` 파일 작성.
+    - `beginner-assistant.md` 에이전트 정의 파일 생성 (Harness 프로토콜 실전 적용).
+- **초보자용 CLI AI 사용 패턴 조사**:
+    - NL2Shell (Natural Language to Shell), Intent-Review-Execute, Error-Fixing, Pipe & Analyze 등 주요 패턴 도출.
+    - Gemini CLI의 에이전틱(Agentic) 기능과 NotebookLM 스킬 활용 방안 포함.
+- **가이드 제작 및 배포**:
+    - `beginner-cli-ai-guide.md` 파일을 프로젝트 루트에 생성하여 배포 완료.
+
+## 3. 결과
+- **Harness 구성**: 시스템이 Harness 아키텍처를 따르도록 기본 구조와 가이드라인(CLAUDE.md)을 갖췄습니다.
+- **가이드 배포**: 초보자들이 바로 읽고 따라 할 수 있는 실무적인 CLI AI 활용 가이드를 제공합니다.
+
+## 4. 향후 계획
+- 사용자의 피드백을 바탕으로 `beginner-assistant` 에이전트의 기능을 구체적인 스킬로 확장할 예정입니다.
+
+# Work Log: 260420-14-009-w-harness-gemini-integration.md
+
+## 1. 작업 개요
+- **지시 사항**: "gemini에서 하네스 에이전트가 이용되지 않는 듯 보입니다. 다음 파일들을 확인해서 gemini에서도 하네스 에이전트를 이용하여 작업하도록 해주세요. GEMINI.md 에 반영하세요."
+- **작업 일시**: 2026-04-20 14:00
+- **수행 유형**: Work Order (w)
+
+## 2. 작업 과정
+- **현황 분석**:
+    - `CLAUDE.md`와 `.claude/agents/` 디렉토리에 Harness 프레임워크 기반의 에이전트 정의가 존재함을 확인.
+    - 기존 `GEMINI.md`에는 `_project/` 구조에 대한 지침만 있고, Harness(하네스) 프레임워크와의 연동 지침이 누락되어 있었음.
+- **GEMINI.md 수정**:
+    - Harness 프레임워크 인식 지침 추가.
+    - `CLAUDE.md` 및 `.claude/` 내부의 에이전트/스킬 정의를 참조하고 활용하도록 명시.
+    - 하네스 트리거 발생 시 해당 워크플로우를 우선시하도록 규정.
+
+## 3. 결과
+- 이제 Gemini CLI는 작업을 수행할 때 `GEMINI.md`의 지침에 따라 `CLAUDE.md`와 하네스 에이전트(`beginner-assistant` 등)를 적극적으로 활용하게 됩니다.
+- 에이전트 기반의 체계적인 작업 설계 및 수행이 가능해졌습니다.
+
+## 4. 향후 계획
+- 하네스 에이전트의 실제 작동 여부를 다양한 작업을 통해 지속적으로 검증할 예정입니다.
+
+
+
