@@ -33,7 +33,16 @@ irm https://claude.ai/install.ps1 | iex
 - ai cli 에서 notebooklm 사용을 위한 설정
   - [notebooklm-beginner-guide](notebooklm-beginner-guide.md)
   - [notebooklm-skill-guide](notebooklm-skill-guide.md)
-
+- gemini cli에 harness 생성 도움 skill 설치 방법
+  - 설치 방법 : [gemini-harness-skill-install](gemini-harness-skill-install.md)
+  - harness 이용한 agents 생성 및 사용 예제
+    - harness 구성 요청 작업 지시 샘플 : [beginner-haness-config](beginner-haness-config.md)
+    - harness agents 생성 후 업무 지시 및 결과물 예제
+      - 업무 지시 : [sample-harness-plankorea-webtoon-automation](sample-harness-plankorea-webtoon-automation.md)
+      - 업무 결과물 : [sample-plankorea-webtoon-automation-plan](sample-plankorea-webtoon-automation-plan.md)
+    - 업무 진행 작업 지시와 결과물
+      - 업무 지시 : [sample-plankorea-webtoon-content-creation](sample-plankorea-webtoon-content-creation.md)
+      - 업무 결과물 : [plankorea-webtoon-draft](plankorea-webtoon-draft.md)
 
 ## 참고 
 - Claude Managed Agents [ https://claude.com/blog/claude-managed-agents](https://claude.com/blog/claude-managed-agents)
