@@ -63,3 +63,17 @@
 1.  **이미지 생성**: 위의 영어 프롬프트를 하나씩 복사해서 **ChatGPT (DALL-E 3)**에 입력하세요.
 2.  **편집**: 이미지가 나오면 **캔바(Canva)**에 업로드하고, 준비된 대사를 말풍선으로 넣으세요.
 3.  **도움 요청**: 막히는 부분이 있으면 언제든 "초보자 도우미 나와줘!"라고 불러주세요.
+
+# 다음 진행 
+*   **이미지생성**
+*   ![image](./images/harness-1.png)
+*   ![image](./images/harness-2.png)
+*   ![image](./images/harness-3.png)
+*   ![image](./images/harness-4.png)
+*   ![image](./images/harness-5.png)
+*   ![image](./images/harness-6.png)
+*   ![image](./images/harness-7.png)
+*   ![image](./images/harness-8.png)
+
+## 다음
+* 이미지 생성을 api 등을 이용해 자동화 생성 한다거나 할 수 있음
